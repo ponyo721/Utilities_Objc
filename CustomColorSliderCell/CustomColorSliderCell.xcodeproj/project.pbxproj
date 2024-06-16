@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256E036E2C1F03CA0018B3E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E036D2C1F03CA0018B3E7 /* AppDelegate.m */; };
+		256E03702C1F03CB0018B3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256E036F2C1F03CB0018B3E7 /* Assets.xcassets */; };
+		256E03732C1F03CB0018B3E7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 256E03722C1F03CB0018B3E7 /* Base */; };
+		256E03752C1F03CB0018B3E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E03742C1F03CB0018B3E7 /* main.m */; };
+		256E03802C1F03CC0018B3E7 /* CustomColorSliderCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E037F2C1F03CC0018B3E7 /* CustomColorSliderCellTests.m */; };
+		256E038A2C1F03CC0018B3E7 /* CustomColorSliderCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E03892C1F03CC0018B3E7 /* CustomColorSliderCellUITests.m */; };
+		256E038C2C1F03CC0018B3E7 /* CustomColorSliderCellUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E038B2C1F03CC0018B3E7 /* CustomColorSliderCellUITestsLaunchTests.m */; };
+		256E039A2C1F03F00018B3E7 /* CustomColorSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E03992C1F03F00018B3E7 /* CustomColorSliderCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		256E037C2C1F03CC0018B3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256E03612C1F03CA0018B3E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256E03682C1F03CA0018B3E7;
+			remoteInfo = CustomColorSliderCell;
+		};
+		256E03862C1F03CC0018B3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256E03612C1F03CA0018B3E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256E03682C1F03CA0018B3E7;
+			remoteInfo = CustomColorSliderCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256E03692C1F03CA0018B3E7 /* CustomColorSliderCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomColorSliderCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E036C2C1F03CA0018B3E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256E036D2C1F03CA0018B3E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256E036F2C1F03CB0018B3E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		256E03722C1F03CB0018B3E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256E03742C1F03CB0018B3E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		256E03762C1F03CB0018B3E7 /* CustomColorSliderCell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomColorSliderCell.entitlements; sourceTree = "<group>"; };
+		256E037B2C1F03CC0018B3E7 /* CustomColorSliderCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomColorSliderCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E037F2C1F03CC0018B3E7 /* CustomColorSliderCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomColorSliderCellTests.m; sourceTree = "<group>"; };
+		256E03852C1F03CC0018B3E7 /* CustomColorSliderCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomColorSliderCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E03892C1F03CC0018B3E7 /* CustomColorSliderCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomColorSliderCellUITests.m; sourceTree = "<group>"; };
+		256E038B2C1F03CC0018B3E7 /* CustomColorSliderCellUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomColorSliderCellUITestsLaunchTests.m; sourceTree = "<group>"; };
+		256E03982C1F03F00018B3E7 /* CustomColorSliderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomColorSliderCell.h; sourceTree = "<group>"; };
+		256E03992C1F03F00018B3E7 /* CustomColorSliderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomColorSliderCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256E03662C1F03CA0018B3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E03782C1F03CC0018B3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E03822C1F03CC0018B3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256E03602C1F03CA0018B3E7 = {
+			isa = PBXGroup;
+			children = (
+				256E036B2C1F03CA0018B3E7 /* CustomColorSliderCell */,
+				256E037E2C1F03CC0018B3E7 /* CustomColorSliderCellTests */,
+				256E03882C1F03CC0018B3E7 /* CustomColorSliderCellUITests */,
+				256E036A2C1F03CA0018B3E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256E036A2C1F03CA0018B3E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256E03692C1F03CA0018B3E7 /* CustomColorSliderCell.app */,
+				256E037B2C1F03CC0018B3E7 /* CustomColorSliderCellTests.xctest */,
+				256E03852C1F03CC0018B3E7 /* CustomColorSliderCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256E036B2C1F03CA0018B3E7 /* CustomColorSliderCell */ = {
+			isa = PBXGroup;
+			children = (
+				256E036C2C1F03CA0018B3E7 /* AppDelegate.h */,
+				256E036D2C1F03CA0018B3E7 /* AppDelegate.m */,
+				256E03982C1F03F00018B3E7 /* CustomColorSliderCell.h */,
+				256E03992C1F03F00018B3E7 /* CustomColorSliderCell.m */,
+				256E036F2C1F03CB0018B3E7 /* Assets.xcassets */,
+				256E03712C1F03CB0018B3E7 /* MainMenu.xib */,
+				256E03742C1F03CB0018B3E7 /* main.m */,
+				256E03762C1F03CB0018B3E7 /* CustomColorSliderCell.entitlements */,
+			);
+			path = CustomColorSliderCell;
+			sourceTree = "<group>";
+		};
+		256E037E2C1F03CC0018B3E7 /* CustomColorSliderCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				256E037F2C1F03CC0018B3E7 /* CustomColorSliderCellTests.m */,
+			);
+			path = CustomColorSliderCellTests;
+			sourceTree = "<group>";
+		};
+		256E03882C1F03CC0018B3E7 /* CustomColorSliderCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				256E03892C1F03CC0018B3E7 /* CustomColorSliderCellUITests.m */,
+				256E038B2C1F03CC0018B3E7 /* CustomColorSliderCellUITestsLaunchTests.m */,
+			);
+			path = CustomColorSliderCellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256E03682C1F03CA0018B3E7 /* CustomColorSliderCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256E038F2C1F03CC0018B3E7 /* Build configuration list for PBXNativeTarget "CustomColorSliderCell" */;
+			buildPhases = (
+				256E03652C1F03CA0018B3E7 /* Sources */,
+				256E03662C1F03CA0018B3E7 /* Frameworks */,
+				256E03672C1F03CA0018B3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomColorSliderCell;
+			productName = CustomColorSliderCell;
+			productReference = 256E03692C1F03CA0018B3E7 /* CustomColorSliderCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		256E037A2C1F03CC0018B3E7 /* CustomColorSliderCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256E03922C1F03CC0018B3E7 /* Build configuration list for PBXNativeTarget "CustomColorSliderCellTests" */;
+			buildPhases = (
+				256E03772C1F03CC0018B3E7 /* Sources */,
+				256E03782C1F03CC0018B3E7 /* Frameworks */,
+				256E03792C1F03CC0018B3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256E037D2C1F03CC0018B3E7 /* PBXTargetDependency */,
+			);
+			name = CustomColorSliderCellTests;
+			productName = CustomColorSliderCellTests;
+			productReference = 256E037B2C1F03CC0018B3E7 /* CustomColorSliderCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		256E03842C1F03CC0018B3E7 /* CustomColorSliderCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256E03952C1F03CC0018B3E7 /* Build configuration list for PBXNativeTarget "CustomColorSliderCellUITests" */;
+			buildPhases = (
+				256E03812C1F03CC0018B3E7 /* Sources */,
+				256E03822C1F03CC0018B3E7 /* Frameworks */,
+				256E03832C1F03CC0018B3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256E03872C1F03CC0018B3E7 /* PBXTargetDependency */,
+			);
+			name = CustomColorSliderCellUITests;
+			productName = CustomColorSliderCellUITests;
+			productReference = 256E03852C1F03CC0018B3E7 /* CustomColorSliderCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256E03612C1F03CA0018B3E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					256E03682C1F03CA0018B3E7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					256E037A2C1F03CC0018B3E7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 256E03682C1F03CA0018B3E7;
+					};
+					256E03842C1F03CC0018B3E7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 256E03682C1F03CA0018B3E7;
+					};
+				};
+			};
+			buildConfigurationList = 256E03642C1F03CA0018B3E7 /* Build configuration list for PBXProject "CustomColorSliderCell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256E03602C1F03CA0018B3E7;
+			productRefGroup = 256E036A2C1F03CA0018B3E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256E03682C1F03CA0018B3E7 /* CustomColorSliderCell */,
+				256E037A2C1F03CC0018B3E7 /* CustomColorSliderCellTests */,
+				256E03842C1F03CC0018B3E7 /* CustomColorSliderCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256E03672C1F03CA0018B3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E03702C1F03CB0018B3E7 /* Assets.xcassets in Resources */,
+				256E03732C1F03CB0018B3E7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E03792C1F03CC0018B3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E03832C1F03CC0018B3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256E03652C1F03CA0018B3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E03752C1F03CB0018B3E7 /* main.m in Sources */,
+				256E039A2C1F03F00018B3E7 /* CustomColorSliderCell.m in Sources */,
+				256E036E2C1F03CA0018B3E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E03772C1F03CC0018B3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E03802C1F03CC0018B3E7 /* CustomColorSliderCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E03812C1F03CC0018B3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E038C2C1F03CC0018B3E7 /* CustomColorSliderCellUITestsLaunchTests.m in Sources */,
+				256E038A2C1F03CC0018B3E7 /* CustomColorSliderCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256E037D2C1F03CC0018B3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256E03682C1F03CA0018B3E7 /* CustomColorSliderCell */;
+			targetProxy = 256E037C2C1F03CC0018B3E7 /* PBXContainerItemProxy */;
+		};
+		256E03872C1F03CC0018B3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256E03682C1F03CA0018B3E7 /* CustomColorSliderCell */;
+			targetProxy = 256E03862C1F03CC0018B3E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		256E03712C1F03CB0018B3E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256E03722C1F03CB0018B3E7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256E038D2C1F03CC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		256E038E2C1F03CC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		256E03902C1F03CC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomColorSliderCell/CustomColorSliderCell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.CustomColorSliderCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		256E03912C1F03CC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomColorSliderCell/CustomColorSliderCell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.CustomColorSliderCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		256E03932C1F03CC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.CustomColorSliderCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomColorSliderCell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomColorSliderCell";
+			};
+			name = Debug;
+		};
+		256E03942C1F03CC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.CustomColorSliderCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomColorSliderCell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomColorSliderCell";
+			};
+			name = Release;
+		};
+		256E03962C1F03CC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.CustomColorSliderCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = CustomColorSliderCell;
+			};
+			name = Debug;
+		};
+		256E03972C1F03CC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.CustomColorSliderCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = CustomColorSliderCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256E03642C1F03CA0018B3E7 /* Build configuration list for PBXProject "CustomColorSliderCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E038D2C1F03CC0018B3E7 /* Debug */,
+				256E038E2C1F03CC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256E038F2C1F03CC0018B3E7 /* Build configuration list for PBXNativeTarget "CustomColorSliderCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E03902C1F03CC0018B3E7 /* Debug */,
+				256E03912C1F03CC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256E03922C1F03CC0018B3E7 /* Build configuration list for PBXNativeTarget "CustomColorSliderCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E03932C1F03CC0018B3E7 /* Debug */,
+				256E03942C1F03CC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256E03952C1F03CC0018B3E7 /* Build configuration list for PBXNativeTarget "CustomColorSliderCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E03962C1F03CC0018B3E7 /* Debug */,
+				256E03972C1F03CC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 256E03612C1F03CA0018B3E7 /* Project object */;
+}
