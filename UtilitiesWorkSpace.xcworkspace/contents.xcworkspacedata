@@ -4,6 +4,9 @@
    <Group
       location = "container:"
       name = "BaseModule">
+      <FileRef
+         location = "group:FilteredTextField/../SystemBaseInfo/SystemBaseInfo.xcodeproj">
+      </FileRef>
       <Group
          location = "container:"
          name = "Sample">
@@ -11,13 +14,19 @@
             location = "group:DataSplitSample/DataSplitSample.xcodeproj">
          </FileRef>
       </Group>
-      <FileRef
-         location = "group:FilteredTextField/../SystemBaseInfo/SystemBaseInfo.xcodeproj">
-      </FileRef>
    </Group>
    <Group
       location = "container:"
       name = "UI">
+      <FileRef
+         location = "group:CustomColorSliderCell/CustomColorSliderCell.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:FilteredTextField/FilteredTextField.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:SystemThemeChangeDetecter/SystemThemeChangeDetecter.xcodeproj">
+      </FileRef>
       <Group
          location = "container:"
          name = "Sample">
@@ -25,11 +34,5 @@
             location = "group:HideWindowToolBarSample/HideWindowToolBarSample.xcodeproj">
          </FileRef>
       </Group>
-      <FileRef
-         location = "group:FilteredTextField/FilteredTextField.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:CustomColorSliderCell/CustomColorSliderCell.xcodeproj">
-      </FileRef>
    </Group>
 </Workspace>

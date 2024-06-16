@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256E04D72C1F30EA0018B3E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E04D62C1F30EA0018B3E7 /* AppDelegate.m */; };
+		256E04D92C1F30EB0018B3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256E04D82C1F30EB0018B3E7 /* Assets.xcassets */; };
+		256E04DC2C1F30EB0018B3E7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 256E04DB2C1F30EB0018B3E7 /* Base */; };
+		256E04DE2C1F30EB0018B3E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E04DD2C1F30EB0018B3E7 /* main.m */; };
+		256E04E92C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E04E82C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.m */; };
+		256E04F32C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E04F22C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.m */; };
+		256E04F52C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E04F42C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITestsLaunchTests.m */; };
+		256E05032C1F326F0018B3E7 /* SystemThemeChangeDetecter.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E05022C1F326F0018B3E7 /* SystemThemeChangeDetecter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		256E04E52C1F30EC0018B3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256E04CA2C1F30EA0018B3E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256E04D12C1F30EA0018B3E7;
+			remoteInfo = SystemThemeChangeDetecter;
+		};
+		256E04EF2C1F30EC0018B3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256E04CA2C1F30EA0018B3E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256E04D12C1F30EA0018B3E7;
+			remoteInfo = SystemThemeChangeDetecter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256E04D22C1F30EA0018B3E7 /* SystemThemeChangeDetecter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemThemeChangeDetecter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E04D52C1F30EA0018B3E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256E04D62C1F30EA0018B3E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256E04D82C1F30EB0018B3E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		256E04DB2C1F30EB0018B3E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256E04DD2C1F30EB0018B3E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		256E04DF2C1F30EB0018B3E7 /* SystemThemeChangeDetecter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SystemThemeChangeDetecter.entitlements; sourceTree = "<group>"; };
+		256E04E42C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemThemeChangeDetecterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E04E82C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemThemeChangeDetecterTests.m; sourceTree = "<group>"; };
+		256E04EE2C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemThemeChangeDetecterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E04F22C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemThemeChangeDetecterUITests.m; sourceTree = "<group>"; };
+		256E04F42C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemThemeChangeDetecterUITestsLaunchTests.m; sourceTree = "<group>"; };
+		256E05012C1F326F0018B3E7 /* SystemThemeChangeDetecter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemThemeChangeDetecter.h; sourceTree = "<group>"; };
+		256E05022C1F326F0018B3E7 /* SystemThemeChangeDetecter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemThemeChangeDetecter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256E04CF2C1F30EA0018B3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E04E12C1F30EC0018B3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E04EB2C1F30EC0018B3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256E04C92C1F30EA0018B3E7 = {
+			isa = PBXGroup;
+			children = (
+				256E04D42C1F30EA0018B3E7 /* SystemThemeChangeDetecter */,
+				256E04E72C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests */,
+				256E04F12C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests */,
+				256E04D32C1F30EA0018B3E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256E04D32C1F30EA0018B3E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256E04D22C1F30EA0018B3E7 /* SystemThemeChangeDetecter.app */,
+				256E04E42C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.xctest */,
+				256E04EE2C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256E04D42C1F30EA0018B3E7 /* SystemThemeChangeDetecter */ = {
+			isa = PBXGroup;
+			children = (
+				256E04D52C1F30EA0018B3E7 /* AppDelegate.h */,
+				256E04D62C1F30EA0018B3E7 /* AppDelegate.m */,
+				256E05012C1F326F0018B3E7 /* SystemThemeChangeDetecter.h */,
+				256E05022C1F326F0018B3E7 /* SystemThemeChangeDetecter.m */,
+				256E04D82C1F30EB0018B3E7 /* Assets.xcassets */,
+				256E04DA2C1F30EB0018B3E7 /* MainMenu.xib */,
+				256E04DD2C1F30EB0018B3E7 /* main.m */,
+				256E04DF2C1F30EB0018B3E7 /* SystemThemeChangeDetecter.entitlements */,
+			);
+			path = SystemThemeChangeDetecter;
+			sourceTree = "<group>";
+		};
+		256E04E72C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests */ = {
+			isa = PBXGroup;
+			children = (
+				256E04E82C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.m */,
+			);
+			path = SystemThemeChangeDetecterTests;
+			sourceTree = "<group>";
+		};
+		256E04F12C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				256E04F22C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.m */,
+				256E04F42C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITestsLaunchTests.m */,
+			);
+			path = SystemThemeChangeDetecterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256E04D12C1F30EA0018B3E7 /* SystemThemeChangeDetecter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256E04F82C1F30EC0018B3E7 /* Build configuration list for PBXNativeTarget "SystemThemeChangeDetecter" */;
+			buildPhases = (
+				256E04CE2C1F30EA0018B3E7 /* Sources */,
+				256E04CF2C1F30EA0018B3E7 /* Frameworks */,
+				256E04D02C1F30EA0018B3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemThemeChangeDetecter;
+			productName = SystemThemeChangeDetecter;
+			productReference = 256E04D22C1F30EA0018B3E7 /* SystemThemeChangeDetecter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		256E04E32C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256E04FB2C1F30EC0018B3E7 /* Build configuration list for PBXNativeTarget "SystemThemeChangeDetecterTests" */;
+			buildPhases = (
+				256E04E02C1F30EC0018B3E7 /* Sources */,
+				256E04E12C1F30EC0018B3E7 /* Frameworks */,
+				256E04E22C1F30EC0018B3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256E04E62C1F30EC0018B3E7 /* PBXTargetDependency */,
+			);
+			name = SystemThemeChangeDetecterTests;
+			productName = SystemThemeChangeDetecterTests;
+			productReference = 256E04E42C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		256E04ED2C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256E04FE2C1F30EC0018B3E7 /* Build configuration list for PBXNativeTarget "SystemThemeChangeDetecterUITests" */;
+			buildPhases = (
+				256E04EA2C1F30EC0018B3E7 /* Sources */,
+				256E04EB2C1F30EC0018B3E7 /* Frameworks */,
+				256E04EC2C1F30EC0018B3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256E04F02C1F30EC0018B3E7 /* PBXTargetDependency */,
+			);
+			name = SystemThemeChangeDetecterUITests;
+			productName = SystemThemeChangeDetecterUITests;
+			productReference = 256E04EE2C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256E04CA2C1F30EA0018B3E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					256E04D12C1F30EA0018B3E7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					256E04E32C1F30EC0018B3E7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 256E04D12C1F30EA0018B3E7;
+					};
+					256E04ED2C1F30EC0018B3E7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 256E04D12C1F30EA0018B3E7;
+					};
+				};
+			};
+			buildConfigurationList = 256E04CD2C1F30EA0018B3E7 /* Build configuration list for PBXProject "SystemThemeChangeDetecter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256E04C92C1F30EA0018B3E7;
+			productRefGroup = 256E04D32C1F30EA0018B3E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256E04D12C1F30EA0018B3E7 /* SystemThemeChangeDetecter */,
+				256E04E32C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests */,
+				256E04ED2C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256E04D02C1F30EA0018B3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E04D92C1F30EB0018B3E7 /* Assets.xcassets in Resources */,
+				256E04DC2C1F30EB0018B3E7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E04E22C1F30EC0018B3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E04EC2C1F30EC0018B3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256E04CE2C1F30EA0018B3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E04DE2C1F30EB0018B3E7 /* main.m in Sources */,
+				256E04D72C1F30EA0018B3E7 /* AppDelegate.m in Sources */,
+				256E05032C1F326F0018B3E7 /* SystemThemeChangeDetecter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E04E02C1F30EC0018B3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E04E92C1F30EC0018B3E7 /* SystemThemeChangeDetecterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256E04EA2C1F30EC0018B3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E04F32C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITests.m in Sources */,
+				256E04F52C1F30EC0018B3E7 /* SystemThemeChangeDetecterUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256E04E62C1F30EC0018B3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256E04D12C1F30EA0018B3E7 /* SystemThemeChangeDetecter */;
+			targetProxy = 256E04E52C1F30EC0018B3E7 /* PBXContainerItemProxy */;
+		};
+		256E04F02C1F30EC0018B3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256E04D12C1F30EA0018B3E7 /* SystemThemeChangeDetecter */;
+			targetProxy = 256E04EF2C1F30EC0018B3E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		256E04DA2C1F30EB0018B3E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256E04DB2C1F30EB0018B3E7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256E04F62C1F30EC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		256E04F72C1F30EC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		256E04F92C1F30EC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SystemThemeChangeDetecter/SystemThemeChangeDetecter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.SystemThemeChangeDetecter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		256E04FA2C1F30EC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SystemThemeChangeDetecter/SystemThemeChangeDetecter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.SystemThemeChangeDetecter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		256E04FC2C1F30EC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.SystemThemeChangeDetecterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SystemThemeChangeDetecter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SystemThemeChangeDetecter";
+			};
+			name = Debug;
+		};
+		256E04FD2C1F30EC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.SystemThemeChangeDetecterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SystemThemeChangeDetecter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SystemThemeChangeDetecter";
+			};
+			name = Release;
+		};
+		256E04FF2C1F30EC0018B3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.SystemThemeChangeDetecterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = SystemThemeChangeDetecter;
+			};
+			name = Debug;
+		};
+		256E05002C1F30EC0018B3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bhpark.SystemThemeChangeDetecterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = SystemThemeChangeDetecter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256E04CD2C1F30EA0018B3E7 /* Build configuration list for PBXProject "SystemThemeChangeDetecter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E04F62C1F30EC0018B3E7 /* Debug */,
+				256E04F72C1F30EC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256E04F82C1F30EC0018B3E7 /* Build configuration list for PBXNativeTarget "SystemThemeChangeDetecter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E04F92C1F30EC0018B3E7 /* Debug */,
+				256E04FA2C1F30EC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256E04FB2C1F30EC0018B3E7 /* Build configuration list for PBXNativeTarget "SystemThemeChangeDetecterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E04FC2C1F30EC0018B3E7 /* Debug */,
+				256E04FD2C1F30EC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256E04FE2C1F30EC0018B3E7 /* Build configuration list for PBXNativeTarget "SystemThemeChangeDetecterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E04FF2C1F30EC0018B3E7 /* Debug */,
+				256E05002C1F30EC0018B3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 256E04CA2C1F30EA0018B3E7 /* Project object */;
+}
