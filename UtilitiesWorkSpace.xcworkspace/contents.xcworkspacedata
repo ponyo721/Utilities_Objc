@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:FilteredTextField/FilteredTextField.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CustomColorSliderCell/CustomColorSliderCell.xcodeproj">
    </FileRef>
 </Workspace>
