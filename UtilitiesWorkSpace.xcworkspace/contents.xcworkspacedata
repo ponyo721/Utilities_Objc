@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:DataSplitSample/DataSplitSample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:FilteredTextField/../SystemBaseInfo/SystemBaseInfo.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "BaseModule">
+      <Group
+         location = "container:"
+         name = "Sample">
+         <FileRef
+            location = "group:DataSplitSample/DataSplitSample.xcodeproj">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:FilteredTextField/../SystemBaseInfo/SystemBaseInfo.xcodeproj">
+      </FileRef>
+   </Group>
    <Group
       location = "container:"
       name = "UI">
+      <Group
+         location = "container:"
+         name = "Sample">
+         <FileRef
+            location = "group:HideWindowToolBarSample/HideWindowToolBarSample.xcodeproj">
+         </FileRef>
+      </Group>
       <FileRef
          location = "group:FilteredTextField/FilteredTextField.xcodeproj">
       </FileRef>
