@@ -44,8 +44,9 @@
     else // tool bar 가 유지 됨
         return NSApplicationPresentationAutoHideMenuBar | NSApplicationPresentationFullScreen;
     
-    
 }
+
+#pragma mark - NSWindowDelegate -
 
 - (void)windowWillClose:(NSNotification *)notification{
     [NSApp terminate:nil];

@@ -8,7 +8,7 @@
 #import "AppDelegate.h"
 #import "CustomColorSliderCell.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <NSWindowDelegate>
 
 @property (strong) IBOutlet NSWindow *window;
 @end
@@ -47,6 +47,12 @@
 
 - (BOOL)applicationSupportsSecureRestorableState:(NSApplication *)app {
     return YES;
+}
+
+#pragma mark - NSWindowDelegate -
+
+- (void)windowWillClose:(NSNotification *)notification{
+    [NSApp terminate:nil];
 }
 
 

@@ -8,7 +8,7 @@
 #import "AppDelegate.h"
 #import "FilteredTextField.h"
 
-@interface AppDelegate (){
+@interface AppDelegate () <NSWindowDelegate> {
     FilteredTextField *_text_field;
 }
 
@@ -42,6 +42,12 @@
 
 - (BOOL)applicationSupportsSecureRestorableState:(NSApplication *)app {
     return YES;
+}
+
+#pragma mark - NSWindowDelegate -
+
+- (void)windowWillClose:(NSNotification *)notification{
+    [NSApp terminate:nil];
 }
 
 
