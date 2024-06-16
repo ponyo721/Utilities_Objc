@@ -2,9 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FilteredTextField/FilteredTextField.xcodeproj">
+      location = "group:FilteredTextField/../SystemBaseInfo/SystemBaseInfo.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:CustomColorSliderCell/CustomColorSliderCell.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "UI">
+      <FileRef
+         location = "group:FilteredTextField/FilteredTextField.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CustomColorSliderCell/CustomColorSliderCell.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
