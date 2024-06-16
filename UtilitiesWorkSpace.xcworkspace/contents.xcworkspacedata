@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DataSplitSample/DataSplitSample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:FilteredTextField/../SystemBaseInfo/SystemBaseInfo.xcodeproj">
    </FileRef>
    <Group
