@@ -18,6 +18,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    [self.window setLevel:NSModalPanelWindowLevel];
+    
     _is_hide_toolbar = NO;
 }
 
