@@ -48,7 +48,7 @@
     [_file_transfer_window openFileSendWindow];
 }
 
-#pragma mark - ui delegate -
+#pragma mark - FileTransferWindowDelegate -
 
 - (void)actionFileTransferWindowConfirm:(NSString *)filePath{
     NSLog(@"filePath : %@", filePath);
@@ -65,6 +65,7 @@
     [NSApp terminate:nil];
 }
 
+#pragma mark - private -
 
 - (BOOL)readFile:(NSString*)filePath{
     NSLog(@"readFile");

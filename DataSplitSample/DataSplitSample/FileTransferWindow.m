@@ -16,7 +16,7 @@
         [openDlg setCanChooseFiles:YES];
         [openDlg setCanChooseDirectories:YES];
         [openDlg setAllowsMultipleSelection:YES];
-
+        
         if([openDlg runModal] == NSModalResponseOK ){
             NSMutableArray *selectedFileList = [NSMutableArray array];
             
@@ -30,3 +30,5 @@
         }
     });
 }
+
+@end
